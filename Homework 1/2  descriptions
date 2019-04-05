@@ -1,0 +1,43 @@
+Homework 1:
+
+1.Sa se proiecteze si sa se implementeze un modul pentru operatii binare. Fiind data o multime
+A finita si nevida de elemente, o operatie binara op este o aplicatie:
+op: AxA → A
+care asociaza pentru fiecare pereche ordonata de elemente (x,y)A un element tot din A.
+Modulul trebuie sa permita rezolvarea urmatoarelor probleme legate de operatii binare:
+- Afisarea operatiei;
+- Determinarea daca o operatie binara este comutativa si asociativa;
+- Determinarea daca o operatie binara este un grup sau un grup comutativ. Un grup
+este o operatie binara care indeplineste urm toarele conditii:
+- operatia este asociativa;
+- exista un element neutru, eA, cu proprietatea ca op(e,a) = op(a, e) = e,
+aA;
+- fiecare element din A are un invers: aA, a
+1A astfel incat: op(a,a1
+) =
+op(a1
+,a) = e. Un grup comutativ este un grup pentru care operatia este
+comutativa.
+
+
+
+Homework 2:
+
+2. Sa se scrie o aplicatie Ptython orientata pe obiecte pentru realizarea unor tranzactii bancare pentru un anumit
+client la o anumita banca specificata. Aplicatia trebuie sa permita doua tiputi de sesiuni: (a) crearea unui profil de
+utlizator, precum si (b) o sesiune care permite urmatoarele operatii:
+- Autentificarea clientului
+- Deschiderea unui cont
+- Inchiderea unui cont
+- Introducerea unei sume (in lei) intr-un cont existent
+- Extragerea unei sume (in lei) dintr-un cont existent
+- Transferul unei sume (n lei) intre doua conturi
+- Afisarea unui raport al unui cont (sau mai multor conturi)
+O persoana poate deschide mai multe conturi la banca respectiva. La crearea profilului, se va initializa numele si
+parola de acces ale clientului, iar acestea vor fi comunicate bancii. In cadrul operatiei de autentificare se va interoga
+banca pentru determinarea concordantei intre numele si parola introdusa, preum si cele existente in banca. Se vor
+afisa mesaje de eroare pentru situatii precum: tranzactie aferenta unui cont nedeschis sau inexistent, depasirea
+plafonului contului curent. Se va scrie o functie de test corespunzatoare.
+
+
+
